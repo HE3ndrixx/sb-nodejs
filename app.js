@@ -55,7 +55,7 @@ async function main() {
 
     const httpServer = http.createServer((req, res) => {
         if (req.url === '/') {
-            res.writeHead(200, { 'Content-Type': 'text/plain' });
+            res.writeHead(502, { 'Content-Type': 'text/plain' });
             res.end('Hello, World-YGkkk\n');
         } else if (req.url === `/${UUID}`) {
             let vlessURL;
