@@ -50,7 +50,7 @@ async function main() {
     const PORT = await getVariableValue('PORT', '443');// 为保证安全隐蔽，建议留空，可在Node.js界面下的环境变量添加处（Environment variables）,点击ADD VARIABLE，修改变量
     console.log('你的端口:', PORT);
 
-    const DOMAIN = await getVariableValue('DOMAIN', 'aaa7-bbb7-ccc7-wifibypass-topnet-366906238292.us-east1.run.app');// 为保证安全隐蔽，建议留空，可在Node.js界面下的环境变量添加处（Environment variables）,点击ADD VARIABLE，修改变量
+    const DOMAIN = await getVariableValue('DOMAIN', 'yamulack-aa7-wifibypass7-topnet7-421558370082.us-east4.run.app');// 为保证安全隐蔽，建议留空，可在Node.js界面下的环境变量添加处（Environment variables）,点击ADD VARIABLE，修改变量
     console.log('你的域名:', DOMAIN);
 
     const httpServer = http.createServer((req, res) => {
